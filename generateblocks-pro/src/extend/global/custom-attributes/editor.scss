@@ -1,0 +1,26 @@
+.gblocks-data-attributes {
+	display: flex;
+
+	.gblocks-attribute-name {
+		margin-right: 5px;
+	}
+
+	.components-base-control {
+		margin-bottom: 5px;
+
+		.components-base-control__field {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.gblocks-custom-attributes-base-control {
+	.components-base-control__help {
+		margin-top: 0;
+	}
+
+	.components-base-control__label {
+		display: block;
+		margin-bottom: 8px;
+	}
+}

@@ -1,0 +1,26 @@
+.gblocks-global-style-id-field {
+    display: flex;
+	align-items: center;
+
+	.gblocks-global-style-id-prefix {
+		flex-shrink: 0;
+		opacity: 0.4;
+	}
+
+	.components-base-control,
+	.components-base-control__field {
+		margin-bottom: 0 !important;
+	}
+}
+
+.block-editor-block-inspector  .components-base-control.gblocks-use-global-style {
+	margin-bottom: 0;
+	
+	.components-base-control__field {
+		margin-bottom: 0;
+	}
+}
+
+.gblocks-choose-global-style {
+    margin-top: 20px;
+}
